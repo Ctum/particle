@@ -1,0 +1,10 @@
+{
+  "name": "particle",
+  "version": "1.0.0",
+  "description": "a basic realize of boom",
+  "main": "index.js",
+  "repository": "git@github.com:Ctum/particle.git",
+  "author": "hanyang <shuerhy@163.com>",
+  "license": "MIT",
+  "private": false
+}
