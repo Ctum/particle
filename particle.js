@@ -79,7 +79,7 @@ class Particle {
     let direction = this.direction;
     if(direction === 'UP') {
       if (currentDuration < Duration / 2) {
-        return Quad.easeOut(currentDuration 0, this.targetY + GainNode, Duration / 2);
+        return Quad.easeOut(currentDuration , this.targetY + GainNode, Duration / 2);
       }
       return this.targetY + G -Quad.easeIn(currentDuration - Duration / 2, 0, this.targetY / 2, Duration / 2);
     }
